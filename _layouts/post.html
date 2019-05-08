@@ -9,15 +9,17 @@ layout: default
 </style>
 <div class="row">
 	<div class="col-sm-4">
-		<img class="full" src="{{ site.baseurl }}/gambar/{{ page.gambar }}" alt="">
+		<p><img class="full" src="{{ site.baseurl }}/gambar/{{ page.gambar }}" alt=""></p>
 	</div>
 	<div class="col-sm-8">
-		<div class="panel panel-success">
-			<div class="panel-heading">Kelebihan</div>
-			<div class="panel-body">
-				{{ page.kelebihan | markdownify }}
+		{% if page.kelebihan %}
+			<div class="panel panel-success">
+				<div class="panel-heading">Kelebihan</div>
+				<div class="panel-body">
+					{{ page.kelebihan | markdownify }}
+				</div>
 			</div>
-		</div>
+		{% endif %}
 		<div class="panel panel-danger">
 			<div class="panel-heading">Kekurangan</div>
 			<div class="panel-body">
