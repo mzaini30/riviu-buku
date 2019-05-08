@@ -8,25 +8,62 @@ layout: default
 	}
 </style>
 <div class="row">
-	<div class="col-sm-4">
-		<p><img class="full" src="{{ site.baseurl }}/gambar/{{ page.gambar }}" alt=""></p>
+	<div class="col-sm-4 theia">
+		<div class="theiaStickySidebar">
+			<div class="item">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<img class="full" src="{{ site.baseurl }}/gambar/{{ page.gambar }}" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-	<div class="col-sm-8">
-		{% if page.kelebihan %}
-			<div class="panel panel-success">
-				<div class="panel-heading">Kelebihan</div>
-				<div class="panel-body">
-					{{ page.kelebihan | markdownify }}
+	<div class="col-sm-8 theia">
+		<div class="theiaStickySidebar">
+			{% if page.kesan %}
+				<div class="panel panel-default">
+					<div class="panel-heading">Kesan Membaca Buku Ini</div>
+					<div class="panel-body">
+						{{ page.kesan | markdownify }}
+					</div>
 				</div>
-			</div>
-		{% endif %}
-		{% if page.kekurangan %}
-			<div class="panel panel-danger">
-				<div class="panel-heading">Kekurangan</div>
-				<div class="panel-body">
-					{{ page.kekurangan | markdownify }}
+			{% endif %}
+			{% if page.kelebihan %}
+				<div class="panel panel-success">
+					<div class="panel-heading">Kelebihan</div>
+					<div class="panel-body">
+						{{ page.kelebihan | markdownify }}
+					</div>
 				</div>
-			</div>
-		{% endif %}
+			{% endif %}
+			{% if page.kekurangan %}
+				<div class="panel panel-danger">
+					<div class="panel-heading">Kekurangan</div>
+					<div class="panel-body">
+						{{ page.kekurangan | markdownify }}
+					</div>
+				</div>
+			{% endif %}
+			<div id="disqus_thread"></div>
+			<script>
+				/**
+				*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+				*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+				/*
+				*/
+				var disqus_config = function () {
+					this.page.url = 'https://www.muhammadzaini.com{{ page.url }}';  // Replace PAGE_URL with your page's canonical URL variable
+					this.page.identifier = '{{ page.url }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+				};
+				(function() { // DON'T EDIT BELOW THIS LINE
+					var d = document, s = d.createElement('script');
+					s.src = 'https://zen-4.disqus.com/embed.js';
+					s.setAttribute('data-timestamp', +new Date());
+					(d.head || d.body).appendChild(s);
+				})();
+			</script>
+			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		</div>
 	</div>
 </div>
