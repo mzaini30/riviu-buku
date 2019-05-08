@@ -31,6 +31,9 @@ penilaian:
 quote:
   -
     quote: Strategi...
-    halaman: 10
+    halaman: 100
+  -
+    quote: Kekuatan adalah kunci
+    halaman: 20
 ---
 
