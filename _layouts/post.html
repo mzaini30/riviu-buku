@@ -11,7 +11,12 @@ layout: default
 	<div class="col-sm-4">
 		<img class="full" src="{{ site.baseurl }}/gambar/{{ page.gambar }}" alt="">
 	</div>
-	<div class="col-sm-8"></div>
+	<div class="col-sm-8">
+		<div class="panel panel-default">
+			<div class="panel-heading">Kekurangan</div>
+			<div class="panel-body">
+				{{ page.kekurangan | markdownify }}
+			</div>
+		</div>
+	</div>
 </div>
-
-{{ content }}
