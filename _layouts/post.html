@@ -20,11 +20,13 @@ layout: default
 				</div>
 			</div>
 		{% endif %}
-		<div class="panel panel-danger">
-			<div class="panel-heading">Kekurangan</div>
-			<div class="panel-body">
-				{{ page.kekurangan | markdownify }}
+		{% if page.kekurangan %}
+			<div class="panel panel-danger">
+				<div class="panel-heading">Kekurangan</div>
+				<div class="panel-body">
+					{{ page.kekurangan | markdownify }}
+				</div>
 			</div>
-		</div>
+		{% endif %}
 	</div>
 </div>
