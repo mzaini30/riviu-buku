@@ -12,7 +12,13 @@ layout: default
 		<img class="full" src="{{ site.baseurl }}/gambar/{{ page.gambar }}" alt="">
 	</div>
 	<div class="col-sm-8">
-		<div class="panel panel-default">
+		<div class="panel panel-success">
+			<div class="panel-heading">Kelebihan</div>
+			<div class="panel-body">
+				{{ page.kelebihan | markdownify }}
+			</div>
+		</div>
+		<div class="panel panel-danger">
 			<div class="panel-heading">Kekurangan</div>
 			<div class="panel-body">
 				{{ page.kekurangan | markdownify }}
