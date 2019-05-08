@@ -26,12 +26,21 @@ layout: default
 				<script>
 				var ctx = document.getElementById('myChart').getContext('2d');
 				var myChart = new Chart(ctx, {
-				    type: 'polar',
+				    type: 'polarArea',
 				    data: {
-				        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+				        labels: [
+				        	{% assign penilaian = page.penilaian | sort: "nama" %}
+				        	{% for x in penilaian %}
+				        		'{{ x.nama }}',
+				        	{% endfor %}
+				        ],
 				        datasets: [{
 				            label: '# of Votes',
-				            data: [12, 19, 3, 5, 2, 3],
+				            data: [
+				            	{% for x in penilaian %}
+				            		{{ x.nilai }},
+				            	{% endfor %}
+				            ],
 				            backgroundColor: [
 				                'rgba(255, 99, 132, 0.2)',
 				                'rgba(54, 162, 235, 0.2)',
