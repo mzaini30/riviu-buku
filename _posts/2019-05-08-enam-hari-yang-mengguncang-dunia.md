@@ -18,7 +18,7 @@ kesan: |
   Kalau yang kuingat dari buku ini ya, kan Mesir membangga-banggakan kekuatannya yang malah dari pernyataan-pernyataannya itu dipelajari oleh Israel yang akan menyerang Mesir dari arah yang tak disangka-sangka.
 
   Ya, semua murni sih memang kesalahan Mesir dalam membaca strategi.
-aspek:
+penilaian:
   -
     nama: kisah
     nilai: 4
