@@ -14,5 +14,9 @@ kesan: |
   # Privasi dalam Peperangan
 
   Di buku ini, kamu akan mengetahui pentingnya privasi dan tidak menggembor-gemborkan kekuatan diri yang malah akan dimanfaatkan oleh musuh.
+
+  Kalau yang kuingat dari buku ini ya, kan Mesir membangga-banggakan kekuatannya yang malah dari pernyataan-pernyataannya itu dipelajari oleh Israel yang akan menyerang Mesir dari arah yang tak disangka-sangka.
+
+  Ya, semua murni sih memang kesalahan Mesir dalam membaca strategi.
 ---
 
