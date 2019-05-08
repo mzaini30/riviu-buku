@@ -10,5 +10,9 @@ kesan: |
   Pas di awal-awal baca sih rasanya membosankan gitu. Tapi kalau sudah lama-kelamaan membaca, seru kok itu. Beneran deh.
   
   Nah, langsung aja dicari bukunya di toko buku.
+
+  # Privasi dalam Peperangan
+
+  Di buku ini, kamu akan mengetahui pentingnya privasi dan tidak menggembor-gemborkan kekuatan diri yang malah akan dimanfaatkan oleh musuh.
 ---
 
