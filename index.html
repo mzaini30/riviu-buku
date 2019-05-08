@@ -2,4 +2,16 @@
 layout: default
 ---
 
-Hello World
+<div class="row">
+	{% for x in site.posts %}
+		<a href="{{ x.url }}" class="item">
+			<div class="col-sm-3 col-md-2">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<img src="{{ site.baseurl }}/gambar/{{ x.gambar }}" alt="">
+					</div>
+				</div>
+			</div>
+		</a>
+	{% endfor %}
+</div>

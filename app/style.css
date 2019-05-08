@@ -1,3 +1,11 @@
 body {
 	padding-top: 70px;
 }
+
+.item .panel-body {
+	padding: 0;
+}
+
+.item img {
+	width: 100%;
+}
