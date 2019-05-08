@@ -25,5 +25,8 @@ penilaian:
   -
     nama: ibroh
     nilai: 9
+  -
+    nama: strategi perang
+    nilai: 10
 ---
 
