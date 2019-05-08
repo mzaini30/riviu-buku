@@ -81,6 +81,20 @@ layout: default
 					</div>
 				</div>
 			{% endif %}
+			{% if page.quote %}
+				<div class="panel panel-default">
+					<div class="panel-heading">Quote</div>
+					<div class="panel-body">
+						{% assign quote = page.quote | sort: "halaman" %}
+						{% for x in quote %}
+							<blockquote>
+								<p>{{ x.quote }}</p>
+								<p>&mdash; halaman {{ x.halaman }}</p>
+							</blockquote>
+						{% endfor %}
+					</div>
+				</div>
+			{% endif %}
 			{% if page.kelebihan %}
 				<div class="panel panel-success">
 					<div class="panel-heading">Kelebihan</div>

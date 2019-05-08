@@ -28,5 +28,9 @@ penilaian:
   -
     nama: strategi perang
     nilai: 10
+quote:
+  -
+    quote: Strategi...
+    halaman: 10
 ---
 
