@@ -9,3 +9,7 @@ body {
 .item img {
 	width: 100%;
 }
+
+img.full {
+	width: 100%;
+}
