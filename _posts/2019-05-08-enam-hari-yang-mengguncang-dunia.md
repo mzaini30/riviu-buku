@@ -29,7 +29,10 @@ penilaian:
     nilai: 9
   -
     nama: strategi perang
-    nilai: 10
+    nilai: 7
+  -
+    nama: propaganda Israel
+    nilai: 9
 quote:
   -
     quote: Strategi...
