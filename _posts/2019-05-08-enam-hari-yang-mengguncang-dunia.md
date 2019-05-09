@@ -4,6 +4,7 @@ title: Enam Hari yang Mengguncang Dunia
 gambar: enam.jpg
 kekurangan: |
   - Buku ini lebih mengutamakan/melebihkan Israel
+  - Bahasa yang digunakan dalam buku ini terkesan agak ilmiah atau dengan menampilkan data-data yang sangat detail sehingga agak berat kalau membacanya hanya untuk tujuan menghabiskan waktu luang
 kelebihan: |
   - Memberikan penjelasan yang sangat detail
 kesan: |
