@@ -7,6 +7,7 @@ kekurangan: |
   - Bahasa yang digunakan dalam buku ini terkesan agak ilmiah atau dengan menampilkan data-data yang sangat detail sehingga agak berat kalau membacanya hanya untuk tujuan menghabiskan waktu luang
 kelebihan: |
   - Memberikan penjelasan yang sangat detail
+  - Dari buku ini, kamu akan mendapatkan gambaran tentang peperangan. Mulai dari senjata, kendaraan tempur, perbekalan, hingga siasat
 kesan: |
   Pas di awal-awal baca sih rasanya membosankan gitu. Tapi kalau sudah lama-kelamaan membaca, seru kok itu. Beneran deh.
   
